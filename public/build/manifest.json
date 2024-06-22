@@ -1,0 +1,57 @@
+{
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BOrJxbIo.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-BtvjY1KL.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/img/banner/deal-section-bg.webp": {
+    "file": "assets/deal-section-bg-bgWyYjtF.webp",
+    "src": "resources/img/banner/deal-section-bg.webp"
+  },
+  "resources/img/banner/small-product-sectio-bg.webp": {
+    "file": "assets/small-product-sectio-bg-BWZ7uLeD.webp",
+    "src": "resources/img/banner/small-product-sectio-bg.webp"
+  },
+  "resources/img/other/brand-section-bg3.webp": {
+    "file": "assets/brand-section-bg3-zcrdXOC_.webp",
+    "src": "resources/img/other/brand-section-bg3.webp"
+  },
+  "resources/img/other/category-sidebar-bg.webp": {
+    "file": "assets/category-sidebar-bg-B8fvGQ2j.webp",
+    "src": "resources/img/other/category-sidebar-bg.webp"
+  },
+  "resources/img/slider/home1-slider1-bg.webp": {
+    "file": "assets/home1-slider1-bg-CO75ZyKg.webp",
+    "src": "resources/img/slider/home1-slider1-bg.webp"
+  },
+  "resources/img/slider/home2-slider-shape-bg.webp": {
+    "file": "assets/home2-slider-shape-bg-C4YlsJQs.webp",
+    "src": "resources/img/slider/home2-slider-shape-bg.webp"
+  },
+  "resources/img/slider/home2-slider1-bg.webp": {
+    "file": "assets/home2-slider1-bg-CIuyKFHd.webp",
+    "src": "resources/img/slider/home2-slider1-bg.webp"
+  },
+  "resources/img/slider/home3-slider-section-bg.webp": {
+    "file": "assets/home3-slider-section-bg-D9Adojcz.webp",
+    "src": "resources/img/slider/home3-slider-section-bg.webp"
+  },
+  "resources/img/slider/home4-slider1-bg.webp": {
+    "file": "assets/home4-slider1-bg-0o2c9UOM.webp",
+    "src": "resources/img/slider/home4-slider1-bg.webp"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DbRgDXqj.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-Cy9D83dt.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
