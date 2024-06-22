@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-md-2">
                 <div class="col">
-                    <<div class="product__details--media">
+                    <div class="product__details--media">
                         <div class="single__product--preview  swiper mb-25">
                             <div class="swiper-wrapper">
                                 @for($i = 1; $i < 5; $i++)
