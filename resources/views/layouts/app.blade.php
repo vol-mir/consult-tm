@@ -8,8 +8,8 @@
         <link rel="canonical" href="{{ url()->full() }}"/>
         <meta name="description" content="{{ $description }}">
         <meta name="country" content="BY">
-        <meta name="author" content="БелиИнструментТорг">
-        <meta name="copyright" content="БелиИнструментТорг">
+        <meta name="author" content="Консалтинженеринг ТМ">
+        <meta name="copyright" content="Консалтинженеринг ТМ">
         <meta name="theme-color" content="#37A764">
 
         <!-- Favicons Icon -->
