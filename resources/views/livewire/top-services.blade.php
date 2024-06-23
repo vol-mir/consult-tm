@@ -1,5 +1,5 @@
 <!-- Start product section -->
-<section class="product__section section--padding ">
+<section class="product__section section--padding pt-0 ">
     <div class="container">
         <div class="section__heading section__heading--flex border-bottom d-flex justify-content-between mb-30">
             <h2 class="section__heading--maintitle">Топ <span>Услуг</span></h2>

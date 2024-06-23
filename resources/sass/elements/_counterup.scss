@@ -1,4 +1,4 @@
-/* 
+/*
     27. Counterup css here
 */
 .counterup__banner__bg2{
@@ -10,6 +10,11 @@
         gap: 2.5rem;
         @media only screen and (max-width: 767px) {
             flex-wrap: wrap;
+        }
+        @media only screen and (max-width: 545px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     }
 }

@@ -1,7 +1,7 @@
 <x-app-layout>
     <main class="main__content_wrapper">
         <!-- Start slider section -->
-        <section class="hero__slider--section">
+        <section class="hero__slider--section pb-10">
             <div class="container">
                 <div class="hero__slider--inner hero__slider--ml hero__slider--activation swiper">
                     <div class="hero__slider--wrapper swiper-wrapper">
@@ -52,7 +52,7 @@
         @livewire('popular_services')
 
         <!-- Start main about section -->
-        <section class="main__about--section section--padding" id="funfactId">
+        <section class="main__about--section section--padding pt-0" id="funfactId">
             <div class="container">
                 <div class="main__about--area position__relative">
                     <div class="main__about__content">
@@ -87,7 +87,7 @@
         @livewire('top_services')
 
         <!-- Start principles section -->
-        <section class="principles--section section--padding">
+        <section class="principles--section section--padding pt-0">
             <div class="container">
                 <div class="section__heading border-bottom mb-30">
                     <h2 class="section__heading--maintitle">Принципы <span>нашей работы</span></h2>

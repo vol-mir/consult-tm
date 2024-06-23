@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Category\GetCategoryRequest;
 use App\Http\Requests\Service\GetServiceRequest;
+use App\Models\Category;
 use Illuminate\View\View;
 
 class AppController extends Controller
@@ -54,8 +55,13 @@ class AppController extends Controller
 
     public function getCategory(GetCategoryRequest $request): View
     {
+        $category = Category::query()
+            ->where('slug', $request->toData()->slug)
+            ->first();
+
         return view('pages.category-detail', [
             'slug' => $request->toData()->slug,
+            'name' => $category?->name,
         ]);
     }
 }
