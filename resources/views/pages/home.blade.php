@@ -12,7 +12,7 @@
                                     <h2 class="slider__maintitle h1">Юридическая <br> <span class="slider__maintitle--inner__text">поддержка</span></h2>
                                 </div>
                                 <div class="hero__slider--layer">
-                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider1-layer.webp') }}" alt="slider-img">
+                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider4-layer.webp') }}" alt="slider-img">
                                 </div>
                             </div>
                         </div>
