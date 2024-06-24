@@ -53,7 +53,7 @@ class BrandResource extends Resource
                             ->required()
                             ->live(onBlur: true)
                             ->maxLength(255)
-                            ->afterStateUpdated(fn(string $operation, $state, Forms\Set $set) => $operation === 'create' ? $set('slug', Str::slug($state)) : null)
+                            ->afterStateUpdated(fn(string $operation, $state, Forms\Set $set) => in_array($operation, ['create', 'edit']) ? $set('slug', Str::slug($state)) : null)
                             ->label(__('fields.name')),
                         Forms\Components\TextInput::make('slug')
                             ->dehydrated()

@@ -25,6 +25,7 @@ use Illuminate\Support\Carbon;
  * @property int|null $parent_id
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
+ * @property int|null $order
  * @property-read Collection<int, Category> $children
  * @property-read int|null $children_count
  * @property-read Category|null $parent
@@ -38,6 +39,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Category whereId($value)
  * @method static Builder|Category whereIsVisible($value)
  * @method static Builder|Category whereName($value)
+ * @method static Builder|Category whereOrder($value)
  * @method static Builder|Category whereParentId($value)
  * @method static Builder|Category wherePosition($value)
  * @method static Builder|Category whereSlug($value)
@@ -54,7 +56,8 @@ class Category extends Model
         'description',
         'position',
         'is_visible',
-        'parent_id'
+        'parent_id',
+        'order',
     ];
 
     public function children(): HasMany

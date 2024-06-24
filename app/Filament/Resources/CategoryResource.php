@@ -49,17 +49,21 @@ class CategoryResource extends Resource
                             ->schema([
                                 Forms\Components\TextInput::make('name')
                                     ->required()
-                                    ->maxLength(255)
                                     ->live(onBlur: true)
-                                    ->afterStateUpdated(fn(string $operation, $state, Forms\Set $set) => $operation === 'create' ? $set('slug', Str::slug($state)) : null)
+                                    ->maxLength(255)
+                                    ->afterStateUpdated(fn(string $operation, $state, Forms\Set $set) => in_array($operation, ['create', 'edit']) ? $set('slug', Str::slug($state)) : null)
                                     ->label(__('fields.name')),
                                 Forms\Components\TextInput::make('slug')
-                                    ->disabled()
                                     ->dehydrated()
                                     ->required()
                                     ->maxLength(255)
                                     ->unique(Category::class, 'slug', ignoreRecord: true)
                                     ->label(__('fields.slug')),
+                                Forms\Components\TextInput::make('order')
+                                    ->integer()
+                                    ->minValue(1)
+                                    ->default(1)
+                                    ->label(__('fields.order')),
                             ]),
 
                         Forms\Components\Select::make('parent_id')
@@ -99,6 +103,10 @@ class CategoryResource extends Resource
                 Tables\Columns\IconColumn::make('is_visible')
                     ->boolean()
                     ->label(__('fields.is_visible')),
+                Tables\Columns\TextColumn::make('order')
+                    ->label(__('fields.order'))
+                    ->searchable()
+                    ->sortable(),
             ])
             ->filters([
             ])

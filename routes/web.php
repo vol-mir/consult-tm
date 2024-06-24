@@ -13,6 +13,6 @@ Route::controller(AppController::class)->group(function () {
     Route::get('/bank-details', 'getBankDetails')->name('bank_details');
     Route::get('/policy-cookies', 'getPolicyCookies')->name('policy_cookies');
     Route::get('/contacts', 'getContacts')->name('contacts');
-    Route::get('/services/{slug}', 'getService')->name('service');
-    Route::get('/{slug}', 'getCategory')->name('category');
+    Route::get('/service/{slug}', 'getService')->name('service');
+    Route::get('/category/{slug}', 'getCategory')->name('category');
 });

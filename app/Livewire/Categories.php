@@ -24,6 +24,8 @@ class Categories extends Component
         $this->categories = Category::query()
             ->select(['name', 'slug'])
             ->whereNull('parent_id')
+            ->orderBy('order')
+            ->take(11)
             ->get()
             ->toArray();
 
