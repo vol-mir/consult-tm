@@ -29,6 +29,7 @@ class PopularServices extends Component
         foreach ($services as $service) {
             $data = [
                 'name' => $service->name,
+                'description' => $service->description,
                 'sku' => $service->sku,
                 'rating' => $service->rating,
                 'price' => $service->price,

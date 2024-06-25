@@ -142,8 +142,8 @@
         <section class="discount__banner--section section--padding pt-0">
             <div class="container">
                 <div class="discount__banner--thumbnail">
-                    <a class="display-block position-relative" href="tel:+375339926176"><img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Доставка крупногабаритной техники по Барановичам бесплатно">
-                        <span class="discount__banner--text ">Остались вопросы? <span class="text__secondary">Звоните: </span> +375 33 992-61-76</span>
+                    <a class="display-block position-relative" href="tel:+375339926176"><img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Остались вопросы? Звоните: +375 33 992-61-76">
+                        <span class="discount__banner--text ">Остались вопросы? <span class="text__secondary">Звоните: </span> <span class="text-nowrap">+375 33 992-61-76</span></span>
                     </a>
                 </div>
             </div>

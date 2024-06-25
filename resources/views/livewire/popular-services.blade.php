@@ -11,8 +11,8 @@
                         <article class="product__card">
                             <div class="product__card--thumbnail">
                                 <a class="product__card--thumbnail__link display-block" href="{{ route('service', $service['slug']) }}">
-                                    <img class="product__card--thumbnail__img product__primary--img" src="{{ asset('resources/img/other/default-services' . $service['image1'] . '.webp') }}" alt="">
-                                    <img class="product__card--thumbnail__img product__secondary--img" src="{{ asset('resources/img/other/default-services' . $service['image2'] . '.webp') }}" alt="">
+                                    <img class="product__card--thumbnail__img product__primary--img" src="{{ asset('resources/img/other/default-services' . $service['image1'] . '.webp') }}" alt="{{ $service['description'] ?? $service['name'] }}">
+                                    <img loading="lazy" class="product__card--thumbnail__img product__secondary--img" src="{{ asset('resources/img/other/default-services' . $service['image2'] . '.webp') }}" alt="{{ $service['description'] ?? $service['name'] }}">
                                 </a>
                             </div>
                             <div class="product__card--content">

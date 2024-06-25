@@ -12,7 +12,7 @@
                                     <h2 class="slider__maintitle h1">Юридическая <br> <span class="slider__maintitle--inner__text">поддержка</span></h2>
                                 </div>
                                 <div class="hero__slider--layer">
-                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider4-layer.webp') }}" alt="slider-img">
+                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider4-layer.webp') }}" alt="Профессиональная юридическая поддержка">
                                 </div>
                             </div>
                         </div>
@@ -23,7 +23,7 @@
                                     <span class="slider__price--text text__secondary">Под ключ</span>
                                 </div>
                                 <div class="hero__slider--layer">
-                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider2-layer.webp') }}" alt="slider-img">
+                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider2-layer.webp') }}" alt="Регистрация юридического лица. Под ключ.">
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                                     <h2 class="slider__maintitle h1"><span class="text__secondary">Комплексное</span> сопровождение <br> <span class="slider__maintitle--inner__text">и защита интересов бизнеса</span></h2>
                                 </div>
                                 <div class="hero__slider--layer">
-                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider3-layer.webp') }}" alt="slider-img">
+                                    <img class="slider__layer--img " src="{{ asset('resources/img/slider/home1-slider3-layer.webp') }}" alt="Комплексное сопровождение и защита интересов бизнеса">
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,9 @@
         <section class="discount__banner--section section--padding pt-0">
             <div class="container">
                 <div class="discount__banner--thumbnail">
-                    <a class="display-block position-relative" href="tel:+375339926176"><img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Доставка крупногабаритной техники по Барановичам бесплатно">
-                        <span class="discount__banner--text ">Консультация юриста <span class="text__secondary">бесплатно</span> +375 33 992-61-76</span>
+                    <a class="display-block position-relative" href="tel:+375339926176">
+                        <img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Консультация юриста бесплатно +375 33 992-61-76">
+                        <span class="discount__banner--text ">Консультация юриста <span class="text__secondary">бесплатно</span> <span class="text-nowrap">+375 33 992-61-76</span></span>
                     </a>
                 </div>
             </div>

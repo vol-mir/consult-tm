@@ -4,7 +4,7 @@
         <div class="shipping__inner style2 d-flex">
             <div class="shipping__items style2 d-flex align-items-center">
                 <div class="shipping__icon">
-                    <img src="{{ asset('resources/img/other/shipping1.webp') }}" alt="icon-img">
+                    <img src="{{ asset('resources/img/other/shipping1.webp') }}" alt="Серьёзный опыт">
                 </div>
                 <div class="shipping__content">
                     <h2 class="shipping__content--title h3">Серьёзный опыт</h2>
@@ -13,7 +13,7 @@
             </div>
             <div class="shipping__items style2 d-flex align-items-center">
                 <div class="shipping__icon">
-                    <img src="{{ asset('resources/img/other/shipping2.webp') }}" alt="icon-img">
+                    <img src="{{ asset('resources/img/other/shipping2.webp') }}" alt="Ясность">
                 </div>
                 <div class="shipping__content">
                     <h2 class="shipping__content--title h3">Ясность</h2>
@@ -22,7 +22,7 @@
             </div>
             <div class="shipping__items style2 d-flex align-items-center">
                 <div class="shipping__icon">
-                    <img src="{{ asset('resources/img/other/shipping3.webp') }}" alt="icon-img">
+                    <img src="{{ asset('resources/img/other/shipping3.webp') }}" alt="Работа на результат">
                 </div>
                 <div class="shipping__content">
                     <h2 class="shipping__content--title h3">Работа на результат</h2>
@@ -31,7 +31,7 @@
             </div>
             <div class="shipping__items style2 d-flex align-items-center">
                 <div class="shipping__icon">
-                    <img src="{{ asset('resources/img/other/shipping4.webp') }}" alt="icon-img">
+                    <img src="{{ asset('resources/img/other/shipping4.webp') }}" alt="Конфиденциальность">
                 </div>
                 <div class="shipping__content">
                     <h2 class="shipping__content--title h3">Конфиденциальность</h2>

@@ -6,7 +6,13 @@
                 @foreach ($brands as $brand)
                     <div class="swiper-slide">
                         <div class="brang__logo--items">
-                            <img class="brang__logo--img" src="{{ $brand['image'] }}" alt="{{ $brand['description'] ?? $brand['name'] }}">
+                            @if($brand['url'])
+                                <a href="{{ $brand['url'] }}" target="_blank">
+                                    <img class="brang__logo--img" src="{{ $brand['image'] }}" alt="{{ $brand['description'] ?? $brand['name'] }}">
+                                </a>
+                            @else
+                                <img class="brang__logo--img" src="{{ $brand['image'] }}" alt="{{ $brand['description'] ?? $brand['name'] }}">
+                            @endif
                         </div>
                     </div>
                 @endforeach

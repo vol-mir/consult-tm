@@ -32,7 +32,7 @@
                     </a>
                 </div>
                 <div class="main__logo">
-                    <h1 class="main__logo--title"><a class="main__logo--link" href="{{ route('home') }}"><img class="main__logo--img" src="{{ asset('resources/img/logo/nav-log.webp') }}" alt="БелИнструментТорг"></a></h1>
+                    <h1 class="main__logo--title"><a class="main__logo--link" href="{{ route('home') }}"><img class="main__logo--img" src="{{ asset('resources/img/logo/nav-log.webp') }}" alt="Консалтинженеринг ТМ"></a></h1>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                                     <a class="header__menu--link text-white" href="{{ route('about') }}">{{ __('site.about_us') }}</a>
                                 </li>
                                 <li class="header__menu--items">
-                                    <a class="header__menu--link text-white" href="#">{{ __('site.company') }}
+                                    <a class="header__menu--link text-white" href="{{ route('contacts') }}">{{ __('site.company') }}
                                         <svg class="menu__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
                                             <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                         </svg>
@@ -106,7 +106,7 @@
                                     </ul>
                                 </li>
                                 <li class="header__menu--items">
-                                    <a class="header__menu--link text-white" href="#">{{ __('site.buyers') }}
+                                    <a class="header__menu--link text-white" href="{{ route('faq') }}">{{ __('site.buyers') }}
                                         <svg class="menu__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
                                             <path  d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                         </svg>
@@ -131,7 +131,7 @@
         <div class="offcanvas__inner">
             <div class="offcanvas__logo">
                 <a class="offcanvas__logo_link" href="{{ route('home') }}">
-                    <img src="{{ asset('resources/img/logo/nav-log.webp') }}" alt="Grocee Logo" width="158" height="36">
+                    <img src="{{ asset('resources/img/logo/nav-log.webp') }}" alt="Консалтинженеринг ТМ" width="158" height="36">
                 </a>
                 <button class="offcanvas__close--btn" data-offcanvas>close</button>
             </div>
@@ -140,7 +140,7 @@
                     <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="{{ route('home') }}">{{ __('site.home') }}</a></li>
                     <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="{{ route('about') }}">{{ __('site.about_us') }}</a></li>
                     <li class="offcanvas__menu_li">
-                        <a class="offcanvas__menu_item" href="#">{{ __('site.company') }}</a>
+                        <a class="offcanvas__menu_item" href="{{ route('contacts') }}">{{ __('site.company') }}</a>
                         <ul class="offcanvas__sub_menu">
                             <li class="offcanvas__sub_menu_li"><a href="{{ route('contacts') }}" class="offcanvas__sub_menu_item">{{ __('site.contacts') }}</a></li>
                             <li class="offcanvas__sub_menu_li"><a href="{{ route('about') }}" class="offcanvas__sub_menu_item">{{ __('site.about_us') }}</a></li>
@@ -150,7 +150,7 @@
                         </ul>
                     </li>
                     <li class="offcanvas__menu_li">
-                        <a class="offcanvas__menu_item" href="#">{{ __('site.buyers') }}</a>
+                        <a class="offcanvas__menu_item" href="{{ route('faq') }}">{{ __('site.buyers') }}</a>
                         <ul class="offcanvas__sub_menu">
                             <li class="offcanvas__sub_menu_li"><a href="{{ route('faq') }}" class="offcanvas__sub_menu_item">{{ __('site.frequently') }}</a></li>
                         </ul>
