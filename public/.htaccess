@@ -5,6 +5,10 @@
 
     RewriteEngine On
 
+    # Редирект с HTTP на HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -19,3 +23,13 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^consult-tm\.by$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.consult-tm\.by$
+RewriteRule ^/?$ "https://consult-tm.by/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^consulttmb\.vh74\.hosterby\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.consulttmb\.vh74\.hosterby\.com$
+RewriteRule ^/?$ "https://consult-tm.by/" [R=301,L]

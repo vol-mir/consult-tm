@@ -3,6 +3,7 @@
 ### Quick Start
 ```shell
 $ composer install
+$ composer install --verbose --prefer-dist --no-progress --no-interaction --no-dev --optimize-autoloader
 $ cp .env.example .env
 $ php artisan key:generate
 $ php artisan migrate:refresh --seed

@@ -72,5 +72,8 @@ return [
         public_path('storage') => storage_path('app/public'),
         public_path('images') => storage_path('app/public/images'),
         public_path('resources/img') => resource_path('img'),
+        './../public_html/storage' => storage_path('app/public'),
+        './../public_html/images' => storage_path('app/public/images'),
+        './../public_html/resources/img' => resource_path('img'),
     ],
 ];
