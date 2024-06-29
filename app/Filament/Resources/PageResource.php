@@ -56,6 +56,9 @@ class PageResource extends Resource
                         Forms\Components\Textarea::make('description')
                             ->columnSpan('full')
                             ->label(__('fields.description')),
+                        Forms\Components\Textarea::make('keywords')
+                            ->columnSpan('full')
+                            ->label(__('fields.keywords')),
                     ]),
             ]);
     }

@@ -7,6 +7,7 @@
         <title>{{ $title }}</title>
         <link rel="canonical" href="{{ url()->full() }}"/>
         <meta name="description" content="{{ $description }}">
+        <meta name="keywords" content="{{ $keywords }}">
         <meta name="country" content="BY">
         <meta name="author" content="Консалтинженеринг ТМ">
         <meta name="copyright" content="Консалтинженеринг ТМ">

@@ -15,6 +15,7 @@ class AppLayout extends Component
     {
         $title = config('app.name');
         $description = config('app.name');
+        $keywords = null;
 
         if (Route::currentRouteName() === 'home') {
             $page = Page::query()
@@ -23,11 +24,13 @@ class AppLayout extends Component
 
             if ($page) {
                 $description = $page->description;
+                $keywords = $page->keywords;
             }
 
             return view('layouts.app', [
                 'title' => $title,
                 'description' => $description,
+                'keywords' => $keywords,
             ]);
         }
 
@@ -38,11 +41,13 @@ class AppLayout extends Component
         if ($page) {
             $title = $title . '-' . $page->title;
             $description = $page->description;
+            $keywords = $page->keywords;
         }
 
         return view('layouts.app', [
             'title' => $title,
             'description' => $description,
+            'keywords' => $keywords,
         ]);
     }
 }
