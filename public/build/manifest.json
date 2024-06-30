@@ -7,6 +7,550 @@
     "file": "assets/bootstrap-icons-BtvjY1KL.woff2",
     "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
   },
+  "resources/fonts/Inter/Inter-Black.eot": {
+    "file": "assets/Inter-Black-jrOxTm-q.eot",
+    "src": "resources/fonts/Inter/Inter-Black.eot"
+  },
+  "resources/fonts/Inter/Inter-Black.ttf": {
+    "file": "assets/Inter-Black-ZcEJPqMU.ttf",
+    "src": "resources/fonts/Inter/Inter-Black.ttf"
+  },
+  "resources/fonts/Inter/Inter-Black.woff": {
+    "file": "assets/Inter-Black-C8uLBNKl.woff",
+    "src": "resources/fonts/Inter/Inter-Black.woff"
+  },
+  "resources/fonts/Inter/Inter-Black.woff2": {
+    "file": "assets/Inter-Black-PCIGMC9y.woff2",
+    "src": "resources/fonts/Inter/Inter-Black.woff2"
+  },
+  "resources/fonts/Inter/Inter-BlackItalic.eot": {
+    "file": "assets/Inter-BlackItalic-CTeOWspY.eot",
+    "src": "resources/fonts/Inter/Inter-BlackItalic.eot"
+  },
+  "resources/fonts/Inter/Inter-BlackItalic.ttf": {
+    "file": "assets/Inter-BlackItalic-aWEmUzpf.ttf",
+    "src": "resources/fonts/Inter/Inter-BlackItalic.ttf"
+  },
+  "resources/fonts/Inter/Inter-BlackItalic.woff": {
+    "file": "assets/Inter-BlackItalic-Dz9vVe3q.woff",
+    "src": "resources/fonts/Inter/Inter-BlackItalic.woff"
+  },
+  "resources/fonts/Inter/Inter-BlackItalic.woff2": {
+    "file": "assets/Inter-BlackItalic-C__mpYx1.woff2",
+    "src": "resources/fonts/Inter/Inter-BlackItalic.woff2"
+  },
+  "resources/fonts/Inter/Inter-Bold.eot": {
+    "file": "assets/Inter-Bold-DM__1kr4.eot",
+    "src": "resources/fonts/Inter/Inter-Bold.eot"
+  },
+  "resources/fonts/Inter/Inter-Bold.ttf": {
+    "file": "assets/Inter-Bold-D0m5Xa5u.ttf",
+    "src": "resources/fonts/Inter/Inter-Bold.ttf"
+  },
+  "resources/fonts/Inter/Inter-Bold.woff": {
+    "file": "assets/Inter-Bold-Dm1wsqGD.woff",
+    "src": "resources/fonts/Inter/Inter-Bold.woff"
+  },
+  "resources/fonts/Inter/Inter-Bold.woff2": {
+    "file": "assets/Inter-Bold-CQHYVgG_.woff2",
+    "src": "resources/fonts/Inter/Inter-Bold.woff2"
+  },
+  "resources/fonts/Inter/Inter-BoldItalic.eot": {
+    "file": "assets/Inter-BoldItalic-t1dLiCz4.eot",
+    "src": "resources/fonts/Inter/Inter-BoldItalic.eot"
+  },
+  "resources/fonts/Inter/Inter-BoldItalic.ttf": {
+    "file": "assets/Inter-BoldItalic-Ba8-pZ_J.ttf",
+    "src": "resources/fonts/Inter/Inter-BoldItalic.ttf"
+  },
+  "resources/fonts/Inter/Inter-BoldItalic.woff": {
+    "file": "assets/Inter-BoldItalic-ClhPYlYe.woff",
+    "src": "resources/fonts/Inter/Inter-BoldItalic.woff"
+  },
+  "resources/fonts/Inter/Inter-BoldItalic.woff2": {
+    "file": "assets/Inter-BoldItalic-BZ25GMaH.woff2",
+    "src": "resources/fonts/Inter/Inter-BoldItalic.woff2"
+  },
+  "resources/fonts/Inter/Inter-ExtraBold.eot": {
+    "file": "assets/Inter-ExtraBold-BWza1bPC.eot",
+    "src": "resources/fonts/Inter/Inter-ExtraBold.eot"
+  },
+  "resources/fonts/Inter/Inter-ExtraBold.ttf": {
+    "file": "assets/Inter-ExtraBold-DJrHvLNM.ttf",
+    "src": "resources/fonts/Inter/Inter-ExtraBold.ttf"
+  },
+  "resources/fonts/Inter/Inter-ExtraBold.woff": {
+    "file": "assets/Inter-ExtraBold-BEEZHczf.woff",
+    "src": "resources/fonts/Inter/Inter-ExtraBold.woff"
+  },
+  "resources/fonts/Inter/Inter-ExtraBold.woff2": {
+    "file": "assets/Inter-ExtraBold-Da5QcHRB.woff2",
+    "src": "resources/fonts/Inter/Inter-ExtraBold.woff2"
+  },
+  "resources/fonts/Inter/Inter-ExtraBoldItalic.eot": {
+    "file": "assets/Inter-ExtraBoldItalic-BdhqUCYK.eot",
+    "src": "resources/fonts/Inter/Inter-ExtraBoldItalic.eot"
+  },
+  "resources/fonts/Inter/Inter-ExtraBoldItalic.ttf": {
+    "file": "assets/Inter-ExtraBoldItalic-DVywTn6d.ttf",
+    "src": "resources/fonts/Inter/Inter-ExtraBoldItalic.ttf"
+  },
+  "resources/fonts/Inter/Inter-ExtraBoldItalic.woff": {
+    "file": "assets/Inter-ExtraBoldItalic-Dvm_44ki.woff",
+    "src": "resources/fonts/Inter/Inter-ExtraBoldItalic.woff"
+  },
+  "resources/fonts/Inter/Inter-ExtraBoldItalic.woff2": {
+    "file": "assets/Inter-ExtraBoldItalic-D1JMiWfe.woff2",
+    "src": "resources/fonts/Inter/Inter-ExtraBoldItalic.woff2"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightBETA.eot": {
+    "file": "assets/Inter-ExtraLightBETA-Dm-QTZcE.eot",
+    "src": "resources/fonts/Inter/Inter-ExtraLightBETA.eot"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightBETA.ttf": {
+    "file": "assets/Inter-ExtraLightBETA-D5oD4Chc.ttf",
+    "src": "resources/fonts/Inter/Inter-ExtraLightBETA.ttf"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightBETA.woff": {
+    "file": "assets/Inter-ExtraLightBETA-Ci-ivs4h.woff",
+    "src": "resources/fonts/Inter/Inter-ExtraLightBETA.woff"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightBETA.woff2": {
+    "file": "assets/Inter-ExtraLightBETA-dSzjrJSk.woff2",
+    "src": "resources/fonts/Inter/Inter-ExtraLightBETA.woff2"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightItalicBETA.eot": {
+    "file": "assets/Inter-ExtraLightItalicBETA-Bu53WAGh.eot",
+    "src": "resources/fonts/Inter/Inter-ExtraLightItalicBETA.eot"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightItalicBETA.ttf": {
+    "file": "assets/Inter-ExtraLightItalicBETA-COSovqr2.ttf",
+    "src": "resources/fonts/Inter/Inter-ExtraLightItalicBETA.ttf"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightItalicBETA.woff": {
+    "file": "assets/Inter-ExtraLightItalicBETA-xiLSHCTU.woff",
+    "src": "resources/fonts/Inter/Inter-ExtraLightItalicBETA.woff"
+  },
+  "resources/fonts/Inter/Inter-ExtraLightItalicBETA.woff2": {
+    "file": "assets/Inter-ExtraLightItalicBETA-BcNczogP.woff2",
+    "src": "resources/fonts/Inter/Inter-ExtraLightItalicBETA.woff2"
+  },
+  "resources/fonts/Inter/Inter-Italic.eot": {
+    "file": "assets/Inter-Italic-h8zyjbiU.eot",
+    "src": "resources/fonts/Inter/Inter-Italic.eot"
+  },
+  "resources/fonts/Inter/Inter-Italic.ttf": {
+    "file": "assets/Inter-Italic-BrFu7IOE.ttf",
+    "src": "resources/fonts/Inter/Inter-Italic.ttf"
+  },
+  "resources/fonts/Inter/Inter-Italic.woff": {
+    "file": "assets/Inter-Italic-CttKuW4S.woff",
+    "src": "resources/fonts/Inter/Inter-Italic.woff"
+  },
+  "resources/fonts/Inter/Inter-Italic.woff2": {
+    "file": "assets/Inter-Italic-B-9-4fJy.woff2",
+    "src": "resources/fonts/Inter/Inter-Italic.woff2"
+  },
+  "resources/fonts/Inter/Inter-LightBETA.eot": {
+    "file": "assets/Inter-LightBETA-BhTGQB5W.eot",
+    "src": "resources/fonts/Inter/Inter-LightBETA.eot"
+  },
+  "resources/fonts/Inter/Inter-LightBETA.ttf": {
+    "file": "assets/Inter-LightBETA-CYWGeKDg.ttf",
+    "src": "resources/fonts/Inter/Inter-LightBETA.ttf"
+  },
+  "resources/fonts/Inter/Inter-LightBETA.woff": {
+    "file": "assets/Inter-LightBETA-ezVrMOvg.woff",
+    "src": "resources/fonts/Inter/Inter-LightBETA.woff"
+  },
+  "resources/fonts/Inter/Inter-LightBETA.woff2": {
+    "file": "assets/Inter-LightBETA-DpNixdPo.woff2",
+    "src": "resources/fonts/Inter/Inter-LightBETA.woff2"
+  },
+  "resources/fonts/Inter/Inter-LightItalicBETA.eot": {
+    "file": "assets/Inter-LightItalicBETA-CI4PJs61.eot",
+    "src": "resources/fonts/Inter/Inter-LightItalicBETA.eot"
+  },
+  "resources/fonts/Inter/Inter-LightItalicBETA.ttf": {
+    "file": "assets/Inter-LightItalicBETA-CSbR4sB5.ttf",
+    "src": "resources/fonts/Inter/Inter-LightItalicBETA.ttf"
+  },
+  "resources/fonts/Inter/Inter-LightItalicBETA.woff": {
+    "file": "assets/Inter-LightItalicBETA-ap6sZsaL.woff",
+    "src": "resources/fonts/Inter/Inter-LightItalicBETA.woff"
+  },
+  "resources/fonts/Inter/Inter-LightItalicBETA.woff2": {
+    "file": "assets/Inter-LightItalicBETA-VxBas_3R.woff2",
+    "src": "resources/fonts/Inter/Inter-LightItalicBETA.woff2"
+  },
+  "resources/fonts/Inter/Inter-Medium.eot": {
+    "file": "assets/Inter-Medium-C0pJAE2t.eot",
+    "src": "resources/fonts/Inter/Inter-Medium.eot"
+  },
+  "resources/fonts/Inter/Inter-Medium.ttf": {
+    "file": "assets/Inter-Medium-BaC4k7sN.ttf",
+    "src": "resources/fonts/Inter/Inter-Medium.ttf"
+  },
+  "resources/fonts/Inter/Inter-Medium.woff": {
+    "file": "assets/Inter-Medium-NQOIbdhU.woff",
+    "src": "resources/fonts/Inter/Inter-Medium.woff"
+  },
+  "resources/fonts/Inter/Inter-Medium.woff2": {
+    "file": "assets/Inter-Medium-D5YUpoRx.woff2",
+    "src": "resources/fonts/Inter/Inter-Medium.woff2"
+  },
+  "resources/fonts/Inter/Inter-MediumItalic.eot": {
+    "file": "assets/Inter-MediumItalic-CTkYZNCK.eot",
+    "src": "resources/fonts/Inter/Inter-MediumItalic.eot"
+  },
+  "resources/fonts/Inter/Inter-MediumItalic.ttf": {
+    "file": "assets/Inter-MediumItalic-C18Bu_Vp.ttf",
+    "src": "resources/fonts/Inter/Inter-MediumItalic.ttf"
+  },
+  "resources/fonts/Inter/Inter-MediumItalic.woff": {
+    "file": "assets/Inter-MediumItalic-COrOLzu-.woff",
+    "src": "resources/fonts/Inter/Inter-MediumItalic.woff"
+  },
+  "resources/fonts/Inter/Inter-MediumItalic.woff2": {
+    "file": "assets/Inter-MediumItalic-YxU2FLh9.woff2",
+    "src": "resources/fonts/Inter/Inter-MediumItalic.woff2"
+  },
+  "resources/fonts/Inter/Inter-Regular.eot": {
+    "file": "assets/Inter-Regular-CwtbgAvg.eot",
+    "src": "resources/fonts/Inter/Inter-Regular.eot"
+  },
+  "resources/fonts/Inter/Inter-Regular.ttf": {
+    "file": "assets/Inter-Regular-BeTTpXQ8.ttf",
+    "src": "resources/fonts/Inter/Inter-Regular.ttf"
+  },
+  "resources/fonts/Inter/Inter-Regular.woff": {
+    "file": "assets/Inter-Regular-C05ryuRh.woff",
+    "src": "resources/fonts/Inter/Inter-Regular.woff"
+  },
+  "resources/fonts/Inter/Inter-Regular.woff2": {
+    "file": "assets/Inter-Regular-6EfshmZx.woff2",
+    "src": "resources/fonts/Inter/Inter-Regular.woff2"
+  },
+  "resources/fonts/Inter/Inter-SemiBold.eot": {
+    "file": "assets/Inter-SemiBold-UajGuirf.eot",
+    "src": "resources/fonts/Inter/Inter-SemiBold.eot"
+  },
+  "resources/fonts/Inter/Inter-SemiBold.ttf": {
+    "file": "assets/Inter-SemiBold-DGnHnc8s.ttf",
+    "src": "resources/fonts/Inter/Inter-SemiBold.ttf"
+  },
+  "resources/fonts/Inter/Inter-SemiBold.woff": {
+    "file": "assets/Inter-SemiBold-DGXNtFwE.woff",
+    "src": "resources/fonts/Inter/Inter-SemiBold.woff"
+  },
+  "resources/fonts/Inter/Inter-SemiBold.woff2": {
+    "file": "assets/Inter-SemiBold-ClSOndc6.woff2",
+    "src": "resources/fonts/Inter/Inter-SemiBold.woff2"
+  },
+  "resources/fonts/Inter/Inter-SemiBoldItalic.eot": {
+    "file": "assets/Inter-SemiBoldItalic-CueLog76.eot",
+    "src": "resources/fonts/Inter/Inter-SemiBoldItalic.eot"
+  },
+  "resources/fonts/Inter/Inter-SemiBoldItalic.ttf": {
+    "file": "assets/Inter-SemiBoldItalic-BeeCeC2u.ttf",
+    "src": "resources/fonts/Inter/Inter-SemiBoldItalic.ttf"
+  },
+  "resources/fonts/Inter/Inter-SemiBoldItalic.woff": {
+    "file": "assets/Inter-SemiBoldItalic-CfpSVtlG.woff",
+    "src": "resources/fonts/Inter/Inter-SemiBoldItalic.woff"
+  },
+  "resources/fonts/Inter/Inter-SemiBoldItalic.woff2": {
+    "file": "assets/Inter-SemiBoldItalic-C1C-HVnm.woff2",
+    "src": "resources/fonts/Inter/Inter-SemiBoldItalic.woff2"
+  },
+  "resources/fonts/Inter/Inter-ThinBETA.eot": {
+    "file": "assets/Inter-ThinBETA-BSLTijLL.eot",
+    "src": "resources/fonts/Inter/Inter-ThinBETA.eot"
+  },
+  "resources/fonts/Inter/Inter-ThinBETA.ttf": {
+    "file": "assets/Inter-ThinBETA-OcBdJ5CN.ttf",
+    "src": "resources/fonts/Inter/Inter-ThinBETA.ttf"
+  },
+  "resources/fonts/Inter/Inter-ThinBETA.woff": {
+    "file": "assets/Inter-ThinBETA-dN8Q4lcx.woff",
+    "src": "resources/fonts/Inter/Inter-ThinBETA.woff"
+  },
+  "resources/fonts/Inter/Inter-ThinBETA.woff2": {
+    "file": "assets/Inter-ThinBETA-De7PdzHo.woff2",
+    "src": "resources/fonts/Inter/Inter-ThinBETA.woff2"
+  },
+  "resources/fonts/Inter/Inter-ThinItalicBETA.eot": {
+    "file": "assets/Inter-ThinItalicBETA-DK6pSgd9.eot",
+    "src": "resources/fonts/Inter/Inter-ThinItalicBETA.eot"
+  },
+  "resources/fonts/Inter/Inter-ThinItalicBETA.ttf": {
+    "file": "assets/Inter-ThinItalicBETA-BRRwdykS.ttf",
+    "src": "resources/fonts/Inter/Inter-ThinItalicBETA.ttf"
+  },
+  "resources/fonts/Inter/Inter-ThinItalicBETA.woff": {
+    "file": "assets/Inter-ThinItalicBETA-BhPaVz2v.woff",
+    "src": "resources/fonts/Inter/Inter-ThinItalicBETA.woff"
+  },
+  "resources/fonts/Inter/Inter-ThinItalicBETA.woff2": {
+    "file": "assets/Inter-ThinItalicBETA-CSNw4Px2.woff2",
+    "src": "resources/fonts/Inter/Inter-ThinItalicBETA.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-Bold.woff": {
+    "file": "assets/OpenSans-Bold-BxOR8oFj.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-Bold.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-Bold.woff2": {
+    "file": "assets/OpenSans-Bold-BL4DBPvw.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-Bold.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-BoldItalic.woff": {
+    "file": "assets/OpenSans-BoldItalic-CMDSn8wU.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-BoldItalic.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-BoldItalic.woff2": {
+    "file": "assets/OpenSans-BoldItalic-DgJo_Kxd.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-BoldItalic.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-ExtraBold.woff": {
+    "file": "assets/OpenSans-ExtraBold-Br1c4Qqz.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-ExtraBold.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-ExtraBold.woff2": {
+    "file": "assets/OpenSans-ExtraBold-DvZ9EH54.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-ExtraBold.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-ExtraBoldItalic.woff": {
+    "file": "assets/OpenSans-ExtraBoldItalic-BystKbRH.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-ExtraBoldItalic.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-ExtraBoldItalic.woff2": {
+    "file": "assets/OpenSans-ExtraBoldItalic-D2S2T86B.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-ExtraBoldItalic.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-Italic.woff": {
+    "file": "assets/OpenSans-Italic-t-d2XH24.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-Italic.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-Italic.woff2": {
+    "file": "assets/OpenSans-Italic-Pqe1_Py4.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-Italic.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-Light.woff": {
+    "file": "assets/OpenSans-Light-7ty4Tz1o.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-Light.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-Light.woff2": {
+    "file": "assets/OpenSans-Light-Uz-DMQCE.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-Light.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-LightItalic.woff": {
+    "file": "assets/OpenSans-LightItalic-Bx7szPzx.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-LightItalic.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-LightItalic.woff2": {
+    "file": "assets/OpenSans-LightItalic-bqgKnjhr.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-LightItalic.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-Medium.woff": {
+    "file": "assets/OpenSans-Medium-DuoTdC35.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-Medium.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-Medium.woff2": {
+    "file": "assets/OpenSans-Medium-BfQt1bQD.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-Medium.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-MediumItalic.woff": {
+    "file": "assets/OpenSans-MediumItalic-BW3rmHxz.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-MediumItalic.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-MediumItalic.woff2": {
+    "file": "assets/OpenSans-MediumItalic-CoVFBs4d.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-MediumItalic.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-Regular.woff": {
+    "file": "assets/OpenSans-Regular-nmrbJzfS.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-Regular.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-Regular.woff2": {
+    "file": "assets/OpenSans-Regular-BJ3T8M-h.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-Regular.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-SemiBold.woff": {
+    "file": "assets/OpenSans-SemiBold-B0zkBA97.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-SemiBold.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-SemiBold.woff2": {
+    "file": "assets/OpenSans-SemiBold-2NIEtO4l.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-SemiBold.woff2"
+  },
+  "resources/fonts/OpenSans/OpenSans-SemiBoldItalic.woff": {
+    "file": "assets/OpenSans-SemiBoldItalic-DdLPY9fw.woff",
+    "src": "resources/fonts/OpenSans/OpenSans-SemiBoldItalic.woff"
+  },
+  "resources/fonts/OpenSans/OpenSans-SemiBoldItalic.woff2": {
+    "file": "assets/OpenSans-SemiBoldItalic-C3Lp8bEF.woff2",
+    "src": "resources/fonts/OpenSans/OpenSans-SemiBoldItalic.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-Black.eot": {
+    "file": "assets/Rubik-Black-CujtDYc_.eot",
+    "src": "resources/fonts/Rubik/Rubik-Black.eot"
+  },
+  "resources/fonts/Rubik/Rubik-Black.ttf": {
+    "file": "assets/Rubik-Black--_44Es4T.ttf",
+    "src": "resources/fonts/Rubik/Rubik-Black.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-Black.woff": {
+    "file": "assets/Rubik-Black-Bb0w-r0T.woff",
+    "src": "resources/fonts/Rubik/Rubik-Black.woff"
+  },
+  "resources/fonts/Rubik/Rubik-Black.woff2": {
+    "file": "assets/Rubik-Black-DeGL08yw.woff2",
+    "src": "resources/fonts/Rubik/Rubik-Black.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-BlackItalic.eot": {
+    "file": "assets/Rubik-BlackItalic-DvB_ijIX.eot",
+    "src": "resources/fonts/Rubik/Rubik-BlackItalic.eot"
+  },
+  "resources/fonts/Rubik/Rubik-BlackItalic.ttf": {
+    "file": "assets/Rubik-BlackItalic-CVWxHp2l.ttf",
+    "src": "resources/fonts/Rubik/Rubik-BlackItalic.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-BlackItalic.woff": {
+    "file": "assets/Rubik-BlackItalic-CApxgW-P.woff",
+    "src": "resources/fonts/Rubik/Rubik-BlackItalic.woff"
+  },
+  "resources/fonts/Rubik/Rubik-BlackItalic.woff2": {
+    "file": "assets/Rubik-BlackItalic-BpgabLwo.woff2",
+    "src": "resources/fonts/Rubik/Rubik-BlackItalic.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-Bold.eot": {
+    "file": "assets/Rubik-Bold-BJNXG1gq.eot",
+    "src": "resources/fonts/Rubik/Rubik-Bold.eot"
+  },
+  "resources/fonts/Rubik/Rubik-Bold.ttf": {
+    "file": "assets/Rubik-Bold-BmQkqNHo.ttf",
+    "src": "resources/fonts/Rubik/Rubik-Bold.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-Bold.woff": {
+    "file": "assets/Rubik-Bold-DYjwv5Cp.woff",
+    "src": "resources/fonts/Rubik/Rubik-Bold.woff"
+  },
+  "resources/fonts/Rubik/Rubik-Bold.woff2": {
+    "file": "assets/Rubik-Bold-DEyVcY4W.woff2",
+    "src": "resources/fonts/Rubik/Rubik-Bold.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-BoldItalic.eot": {
+    "file": "assets/Rubik-BoldItalic-DuHoxqBM.eot",
+    "src": "resources/fonts/Rubik/Rubik-BoldItalic.eot"
+  },
+  "resources/fonts/Rubik/Rubik-BoldItalic.ttf": {
+    "file": "assets/Rubik-BoldItalic-CAUB0ObW.ttf",
+    "src": "resources/fonts/Rubik/Rubik-BoldItalic.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-BoldItalic.woff": {
+    "file": "assets/Rubik-BoldItalic-CEGrhmu9.woff",
+    "src": "resources/fonts/Rubik/Rubik-BoldItalic.woff"
+  },
+  "resources/fonts/Rubik/Rubik-BoldItalic.woff2": {
+    "file": "assets/Rubik-BoldItalic-DlXlRrMV.woff2",
+    "src": "resources/fonts/Rubik/Rubik-BoldItalic.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-Italic.eot": {
+    "file": "assets/Rubik-Italic-DtFY7tlZ.eot",
+    "src": "resources/fonts/Rubik/Rubik-Italic.eot"
+  },
+  "resources/fonts/Rubik/Rubik-Italic.ttf": {
+    "file": "assets/Rubik-Italic-CaOaYasX.ttf",
+    "src": "resources/fonts/Rubik/Rubik-Italic.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-Italic.woff": {
+    "file": "assets/Rubik-Italic-Cy7qyvLS.woff",
+    "src": "resources/fonts/Rubik/Rubik-Italic.woff"
+  },
+  "resources/fonts/Rubik/Rubik-Italic.woff2": {
+    "file": "assets/Rubik-Italic-Coc4nJC5.woff2",
+    "src": "resources/fonts/Rubik/Rubik-Italic.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-Light.eot": {
+    "file": "assets/Rubik-Light-CxHltmFn.eot",
+    "src": "resources/fonts/Rubik/Rubik-Light.eot"
+  },
+  "resources/fonts/Rubik/Rubik-Light.ttf": {
+    "file": "assets/Rubik-Light-jvQqRvlD.ttf",
+    "src": "resources/fonts/Rubik/Rubik-Light.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-Light.woff": {
+    "file": "assets/Rubik-Light-DFCPZDzK.woff",
+    "src": "resources/fonts/Rubik/Rubik-Light.woff"
+  },
+  "resources/fonts/Rubik/Rubik-Light.woff2": {
+    "file": "assets/Rubik-Light-Bnn1bsBE.woff2",
+    "src": "resources/fonts/Rubik/Rubik-Light.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-LightItalic.eot": {
+    "file": "assets/Rubik-LightItalic-B34W4-hq.eot",
+    "src": "resources/fonts/Rubik/Rubik-LightItalic.eot"
+  },
+  "resources/fonts/Rubik/Rubik-LightItalic.ttf": {
+    "file": "assets/Rubik-LightItalic-BGv4YuqF.ttf",
+    "src": "resources/fonts/Rubik/Rubik-LightItalic.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-LightItalic.woff": {
+    "file": "assets/Rubik-LightItalic-aQGuAvvo.woff",
+    "src": "resources/fonts/Rubik/Rubik-LightItalic.woff"
+  },
+  "resources/fonts/Rubik/Rubik-LightItalic.woff2": {
+    "file": "assets/Rubik-LightItalic-CAKJ__HG.woff2",
+    "src": "resources/fonts/Rubik/Rubik-LightItalic.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-Medium.eot": {
+    "file": "assets/Rubik-Medium-7mXNW6W9.eot",
+    "src": "resources/fonts/Rubik/Rubik-Medium.eot"
+  },
+  "resources/fonts/Rubik/Rubik-Medium.ttf": {
+    "file": "assets/Rubik-Medium-DDlGiScy.ttf",
+    "src": "resources/fonts/Rubik/Rubik-Medium.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-Medium.woff": {
+    "file": "assets/Rubik-Medium-B4KaAeIy.woff",
+    "src": "resources/fonts/Rubik/Rubik-Medium.woff"
+  },
+  "resources/fonts/Rubik/Rubik-Medium.woff2": {
+    "file": "assets/Rubik-Medium-Cm_oux5S.woff2",
+    "src": "resources/fonts/Rubik/Rubik-Medium.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-MediumItalic.eot": {
+    "file": "assets/Rubik-MediumItalic-DsgTuMQ2.eot",
+    "src": "resources/fonts/Rubik/Rubik-MediumItalic.eot"
+  },
+  "resources/fonts/Rubik/Rubik-MediumItalic.ttf": {
+    "file": "assets/Rubik-MediumItalic-CBQtHfCK.ttf",
+    "src": "resources/fonts/Rubik/Rubik-MediumItalic.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-MediumItalic.woff": {
+    "file": "assets/Rubik-MediumItalic-Df0tE95M.woff",
+    "src": "resources/fonts/Rubik/Rubik-MediumItalic.woff"
+  },
+  "resources/fonts/Rubik/Rubik-MediumItalic.woff2": {
+    "file": "assets/Rubik-MediumItalic-JHD8lK73.woff2",
+    "src": "resources/fonts/Rubik/Rubik-MediumItalic.woff2"
+  },
+  "resources/fonts/Rubik/Rubik-Regular.eot": {
+    "file": "assets/Rubik-Regular-CyIyn12v.eot",
+    "src": "resources/fonts/Rubik/Rubik-Regular.eot"
+  },
+  "resources/fonts/Rubik/Rubik-Regular.ttf": {
+    "file": "assets/Rubik-Regular-B8L4FhNu.ttf",
+    "src": "resources/fonts/Rubik/Rubik-Regular.ttf"
+  },
+  "resources/fonts/Rubik/Rubik-Regular.woff": {
+    "file": "assets/Rubik-Regular-D3dddkKu.woff",
+    "src": "resources/fonts/Rubik/Rubik-Regular.woff"
+  },
+  "resources/fonts/Rubik/Rubik-Regular.woff2": {
+    "file": "assets/Rubik-Regular-DiJG_9Tc.woff2",
+    "src": "resources/fonts/Rubik/Rubik-Regular.woff2"
+  },
   "resources/img/banner/deal-section-bg.webp": {
     "file": "assets/deal-section-bg-bgWyYjtF.webp",
     "src": "resources/img/banner/deal-section-bg.webp"
@@ -50,7 +594,7 @@
     "isEntry": true
   },
   "resources/sass/app.scss": {
-    "file": "assets/app-DEp2cS1B.css",
+    "file": "assets/app-Nb5Ve-vC.css",
     "src": "resources/sass/app.scss",
     "isEntry": true
   }
