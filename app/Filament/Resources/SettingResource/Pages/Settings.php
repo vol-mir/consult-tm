@@ -58,6 +58,9 @@ class Settings extends Page implements HasForms
                     ->schema([
                         Forms\Components\Section::make()
                             ->schema([
+                                Forms\Components\TextInput::make('full_name')
+                                    ->maxLength(255)
+                                    ->label(__('fields.full_name')),
                                 Forms\Components\TextInput::make('registration_number')
                                     ->maxLength(255)
                                     ->label(__('fields.registration_number')),

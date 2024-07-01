@@ -72,18 +72,20 @@
         </section>
         <!-- End main about section -->
 
-        <!-- Start discount banner section -->
-        <section class="discount__banner--section section--padding pt-0">
-            <div class="container">
-                <div class="discount__banner--thumbnail">
-                    <a class="display-block position-relative" href="tel:+375339926176">
-                        <img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Консультация юриста бесплатно +375 33 992-61-76">
-                        <span class="discount__banner--text ">Консультация юриста <span class="text__secondary">бесплатно</span> <span class="text-nowrap">+375 33 992-61-76</span></span>
-                    </a>
+        @if($MAIN_PHONE)
+            <!-- Start discount banner section -->
+            <section class="discount__banner--section section--padding pt-0">
+                <div class="container">
+                    <div class="discount__banner--thumbnail">
+                        <a class="display-block position-relative" href="tel:{{ $MAIN_PHONE }}">
+                            <img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Консультация юриста бесплатно {{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}">
+                            <span class="discount__banner--text ">Консультация юриста <span class="text__secondary">бесплатно</span> <span class="text-nowrap">{{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}</span></span>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- End discount banner section -->
+            </section>
+            <!-- End discount banner section -->
+        @endif
 
         @livewire('top_services')
 

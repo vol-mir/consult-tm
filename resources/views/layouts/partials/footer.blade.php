@@ -23,6 +23,10 @@
                         </h2>
 
                         <div class="footer__widget--inner">
+                            <p class="footer__widget--desc">{{ $FULL_NAME }}</p>
+                            <address class="footer__widget--desc">Адрес: {{ $ADDRESS }}</address>
+                            <p class="footer__widget--desc">Телефон: <a class="footer__widget--desc" href="tel:{{ $MAIN_PHONE }}">{{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}</a></p>
+                            <p class="footer__widget--desc">Email: <a class="footer__widget--desc" href="mailto:{{ $MAIN_EMAIL }}">{{ $MAIN_EMAIL }}</a></p><br>
                             <p class="footer__widget--desc">{{ __('site.social_networks') }}</p>
 
                             @livewire('social_networks', ['place' => 'footer'])
@@ -105,7 +109,7 @@
         <div class="container">
             <div class="footer__bottom--inenr d-flex justify-content-between align-items-center">
                 <div class="footer__logo">
-                    <a class="footer__logo--link" href="{{ route('home') }}"><img src="{{ asset('resources/img/logo/nav-log-light.webp') }}" alt="Консалтинженеринг ТМ"></a>
+                    <a class="footer__logo--link" href="{{ route('home') }}"><img src="{{ asset('resources/img/logo/nav-log-light.webp') }}" alt="{{ $COMPANY }}"></a>
                 </div>
                 <p class="copyright__content"><span class="text__secondary">© 2023-{{ now()->year }}</span> <a class="copyright__content--link" target="_blank" href="{{ route('home') }}">ООО "Консалтинженеринг ТМ"</a> .  {{ __('site.all_rights_reserved') }}.</p>
             </div>

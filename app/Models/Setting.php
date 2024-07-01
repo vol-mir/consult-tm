@@ -22,6 +22,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $address
  * @property string|null $map
+ * @property string|null $full_name
  * @method static Builder|Setting newModelQuery()
  * @method static Builder|Setting newQuery()
  * @method static Builder|Setting query()
@@ -29,6 +30,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Setting whereBankDetails($value)
  * @method static Builder|Setting whereCreatedAt($value)
  * @method static Builder|Setting whereDescription($value)
+ * @method static Builder|Setting whereFullName($value)
  * @method static Builder|Setting whereId($value)
  * @method static Builder|Setting whereMap($value)
  * @method static Builder|Setting whereRegistrationNumber($value)
@@ -47,5 +49,6 @@ class Setting extends Model
         'description',
         'address',
         'map',
+        'full_name',
     ];
 }
