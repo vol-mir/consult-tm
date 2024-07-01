@@ -16,7 +16,8 @@
         "livewire/livewire": "^3.5",
         "propaganistas/laravel-phone": "^5.3",
         "spatie/laravel-data": "^4.6",
-        "spatie/laravel-sitemap": "^7.2"
+        "spatie/laravel-sitemap": "^7.2",
+        "spatie/schema-org": "^3.23"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^3.0",

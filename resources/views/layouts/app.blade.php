@@ -18,6 +18,8 @@
 
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
+        @includeIf('schemas.schema-org')
+
         @livewireStyles
     </head>
     <body>
