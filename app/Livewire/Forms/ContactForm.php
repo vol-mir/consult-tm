@@ -118,7 +118,7 @@ class ContactForm extends Component
         }
 
         $this->socialNetworks = SocialNetwork::query()
-            ->select(['name', 'url', 'image'])
+            ->select(['name', 'url', 'image', 'slug'])
             ->get()
             ->toArray();
 

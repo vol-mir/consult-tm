@@ -22,7 +22,7 @@ class SocialNetworks extends Component
     public function render(): View
     {
         $this->socialNetworks = SocialNetwork::query()
-            ->select(['name', 'url', 'image'])
+            ->select(['name', 'url', 'image', 'slug'])
             ->get()
             ->toArray();
 
