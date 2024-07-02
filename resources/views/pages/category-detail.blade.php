@@ -21,6 +21,19 @@
 
         @livewire('category-detail', ['slug' => $slug])
 
+        @if($description)
+            <!-- Start category details section -->
+            <section class="category__details--section mb-60">
+                <div class="container">
+                    <div class="category__details--content">
+                        <h2 class="category__details--title mb-10">{{ $name }}</h2>
+                        {!! $description !!}
+                    </div>
+                </div>
+            </section>
+            <!-- End category details section -->
+        @endif
+
         @include('layouts.partials.shipping')
 
     </main>

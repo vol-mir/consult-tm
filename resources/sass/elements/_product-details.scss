@@ -380,6 +380,47 @@
         transition: all .3s ease-out;
         color: var(--bs-white);
     }
+    ul {
+        counter-reset: li;
+        list-style: none;
+        padding: 0 0 0 80px;
+    }
+    ul li {
+        position: relative;
+        display: block;
+        padding: .4em .4em .4em 2em;
+        margin: .5em 0;
+        background: #fafafa;
+        text-decoration: none;
+        border-radius: .3em;
+        transition: .3s ease-out;
+        font-size: 1.5rem;
+        line-height: 2.6rem;
+        @media only screen and (min-width: 1200px) {
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+        }
+    }
+    ul li:hover {background: var(--bs-body-bg);}
+    ul li:hover:before {transform: rotate(360deg);}
+    ul li:before {
+        content: '#';
+        counter-increment: li;
+        position: absolute;
+        left: -1.3em;
+        top: 50%;
+        margin-top: -1.3em;
+        background: var(--secondary-color);
+        height: 2.5em;
+        width: 2.5em;
+        line-height: 2em;
+        border: .3em solid var(--bs-white);
+        text-align: center;
+        font-weight: bold;
+        border-radius: 2em;
+        transition: all .3s ease-out;
+        color: var(--bs-white);
+    }
 }
 .product__tab--content__step.style2{
     gap: 2rem;

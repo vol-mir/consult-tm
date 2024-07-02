@@ -62,6 +62,7 @@ class AppController extends Controller
         return view('pages.category-detail', [
             'slug' => $request->toData()->slug,
             'name' => $category?->name,
+            'description' => $category?->description,
         ]);
     }
 }

@@ -1,4 +1,4 @@
-/* 
+/*
     6. Categories css
 */
 .categories__card{
@@ -321,5 +321,115 @@
     padding-top: 1.3rem;
     & .categories__content--subtitle{
         color: var(--foreground-sub-color);
+    }
+}
+
+
+.category__details{
+    &--content{
+        background: var(--body-background-color);
+        border-radius: 10px;
+        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.16);
+        padding: 2rem;
+        font-size: 1.5rem;
+        line-height: 2.6rem;
+        margin-bottom: 0.5rem;
+        @media only screen and (min-width: 576px) {
+            padding: 3rem;
+        }
+        @media only screen and (min-width: 768px) {
+            padding: 4rem;
+        }
+        @media only screen and (min-width: 1200px) {
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+        }
+        ol {
+            counter-reset: li;
+            list-style: none;
+            padding: 0 0 0 80px;
+        }
+        ol li {
+            position: relative;
+            display: block;
+            padding: .4em .4em .4em 2em;
+            margin: .5em 0;
+            background: #fafafa;
+            text-decoration: none;
+            border-radius: .3em;
+            transition: .3s ease-out;
+            font-size: 1.5rem;
+            line-height: 2.6rem;
+            @media only screen and (min-width: 1200px) {
+                font-size: 1.6rem;
+                line-height: 2.7rem;
+            }
+        }
+        ol li:hover {background: var(--bs-body-bg);}
+        ol li:hover:before {transform: rotate(360deg);}
+        ol li:before {
+            content: counter(li);
+            counter-increment: li;
+            position: absolute;
+            left: -1.3em;
+            top: 50%;
+            margin-top: -1.3em;
+            background: var(--secondary-color);
+            height: 2.5em;
+            width: 2.5em;
+            line-height: 2em;
+            border: .3em solid var(--bs-white);
+            text-align: center;
+            font-weight: bold;
+            border-radius: 2em;
+            transition: all .3s ease-out;
+            color: var(--bs-white);
+        }
+        ul {
+            counter-reset: li;
+            list-style: none;
+            padding: 0 0 0 80px;
+        }
+        ul li {
+            position: relative;
+            display: block;
+            padding: .4em .4em .4em 2em;
+            margin: .5em 0;
+            background: #fafafa;
+            text-decoration: none;
+            border-radius: .3em;
+            transition: .3s ease-out;
+            font-size: 1.5rem;
+            line-height: 2.6rem;
+            @media only screen and (min-width: 1200px) {
+                font-size: 1.6rem;
+                line-height: 2.7rem;
+            }
+        }
+        ul li:hover {background: var(--bs-body-bg);}
+        ul li:hover:before {transform: rotate(360deg);}
+        ul li:before {
+            content: '#';
+            counter-increment: li;
+            position: absolute;
+            left: -1.3em;
+            top: 50%;
+            margin-top: -1.3em;
+            background: var(--secondary-color);
+            height: 2.5em;
+            width: 2.5em;
+            line-height: 2em;
+            border: .3em solid var(--bs-white);
+            text-align: center;
+            font-weight: bold;
+            border-radius: 2em;
+            transition: all .3s ease-out;
+            color: var(--bs-white);
+        }
+    }
+    &--title{
+        font-weight: 600;
+        font-size: 2.2rem;
+        text-align: center;
     }
 }
