@@ -16,6 +16,9 @@
         <!-- Favicons Icon -->
         <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon"/>
 
+        <!-- Yandex -->
+        <meta name="yandex-verification" content="da1b99ca3365cba1" />
+
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
         @includeIf('schemas.schema-org')
