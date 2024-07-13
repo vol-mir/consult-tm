@@ -152,7 +152,7 @@
                                          <a href="tel:{{ $MAIN_PHONE }}">
                                              {{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}
                                          </a>
-                                        или напишите на Email: <a class="footer__widget--desc" href="mailto:{{ $MAIN_EMAIL }}">{{ $MAIN_EMAIL }}</a>
+                                        или напишите на Email: <a href="mailto:{{ $MAIN_EMAIL }}">{{ $MAIN_EMAIL }}</a>
                                     </p>
                                 </div>
                             </div>

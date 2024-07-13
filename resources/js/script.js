@@ -1210,6 +1210,9 @@ let schemeWorkSwiper = new Swiper(".scheme__of__work__swiper--activation", {
     loop: true,
     clickable: true,
     spaceBetween: 30,
+    autoplay: {
+        delay: 7000,
+    },
     breakpoints: {
         992: {
             slidesPerView: 4,
