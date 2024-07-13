@@ -29,6 +29,7 @@
   24. Brands swiper activation
   25. Single shop nav activation
   26. Cookies popup Activation
+  27. Scheme of work swiper activation
 */
 
 "use strict";
@@ -1200,3 +1201,37 @@ const cookiesPopup = function () {
     }
 };
 cookiesPopup();
+
+/*
+  27. Scheme of work swiper activation
+*/
+let schemeWorkSwiper = new Swiper(".scheme__of__work__swiper--activation", {
+    slidesPerView: 4,
+    loop: true,
+    clickable: true,
+    spaceBetween: 30,
+    breakpoints: {
+        992: {
+            slidesPerView: 4,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        560: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        0: {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

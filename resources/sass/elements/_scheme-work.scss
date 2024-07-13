@@ -1,0 +1,146 @@
+/*
+    43. Scheme of work css
+*/
+.scheme__of__work__section{
+    &--inner{
+        padding: 2px;
+    }
+}
+.view__all--link{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    line-height: 2rem;
+    @media only screen and (min-width: 576px) {
+        font-size: 1.6rem;
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: var(--secondary-color);
+        bottom: -13px;
+        left: 0;
+    }
+}
+.scheme__of__work{
+    &--content{
+        padding-top: 30px;
+    }
+}
+.scheme__of__work__card{
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    transition: var(--transition);
+    position: relative;
+    height: 320px;
+    @media only screen and (max-width: 1199px) {
+        height: 370px;
+    }
+    @media only screen and (max-width: 992px) {
+        height: 250px;
+    }
+    @media only screen and (max-width: 768px) {
+        padding: 2rem;
+        height: 320px;
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: linear-gradient(to top, #FCEEF2 , #F5F5FE);
+        transition: var(--transition);
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+    }
+    &:hover{
+        border-color: var(--secondary-color);
+        &::before{
+            opacity: 1;
+            visibility: visible;
+        }
+        & .blog__card--social{
+            opacity: 1;
+            visibility: visible;
+            & .social__share--icon{
+                transform: scale(1);
+            }
+        }
+        & .blog__card--thumbnail__img{
+            transform: scale(1.06) rotate(2deg);
+        }
+    }
+    &--thumbnail{
+        overflow: hidden;
+        border-radius: 5px;
+        &__link{
+            display: block;
+            width: 100%;
+        }
+        &__img{
+            width: 100%;
+        }
+    }
+    &--meta{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--foreground-sub-color);
+        font-family: var(--inter-fonts);
+        margin-bottom: 0.7rem;
+        &__item{
+            width: 5rem;
+            height: 4rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            background: var(--secondary-color);
+            border-radius: 5px;
+            color: var(--text-white-color);
+            line-height: 1.7rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -5px;
+            left: 40%;
+            @media only screen and (min-width: 768px) {
+                width: 6rem;
+                height: 4rem;
+                font-size: 1.5rem;
+                line-height: 1.8rem;
+            }
+        }
+    }
+    &--desc{
+        color: var(--foreground-sub-color);
+        margin-bottom: 1.2rem;
+    }
+    &--title{
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
+        @media only screen and (min-width: 480px) {
+            font-size: 1.8rem;
+            line-height: 2.6rem;
+        }
+        @media only screen and (min-width: 1366px) {
+            font-size: 2rem;
+            line-height: 2.8rem;
+            margin-bottom: 1.1rem;
+        }
+    }
+    &--content{
+        padding: 1.5rem 0 0;
+    }
+}
+// End scheme of work css here

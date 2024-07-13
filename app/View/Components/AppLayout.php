@@ -30,6 +30,10 @@ class AppLayout extends Component
             $title = $title . '-' . $page->title;
         }
 
+        if ($page && Route::currentRouteName() === 'home') {
+            $title = $title . '-юридические услуги по всей Беларуси';
+        }
+
         return view('layouts.app', [
             'title' => $title,
             'description' => $description,
