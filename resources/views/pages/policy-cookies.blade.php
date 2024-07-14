@@ -18,15 +18,19 @@
         </section>
         <!-- End breadcrumb section -->
 
+        <section class="mt-5">
+            <div class="container">
+                <div class="section__heading border-bottom">
+                    <h2 class="section__heading--maintitle">Политика в отношении <span>обработки файлов cookie</span></h2>
+                </div>
+            </div>
+        </section>
+
         <!-- Start policy cookies section -->
-        <div class="policy__cookies--section section--padding">
+        <div class="policy__cookies--section mt-5 mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="policy__cookies--content section_1">
-                            <h2 class="policy__cookies--content__title">Политика в отношении обработки файлов cookie</h2>
-                        </div>
-
                         <div class="policy__cookies--content section_1">
                             <div class="policy__cookies--content__list">
                                 <ol>

@@ -22,6 +22,13 @@
 
         @livewire('map-area')
 
+        <section class="mb-25">
+            <div class="container">
+                <div class="section__heading border-bottom">
+                    <h2 class="section__heading--maintitle">Наши <span>клиенты и партнеры</span></h2>
+                </div>
+            </div>
+        </section>
         @livewire('brands')
 
         @include('layouts.partials.shipping')

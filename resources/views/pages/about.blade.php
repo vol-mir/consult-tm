@@ -80,8 +80,8 @@
         <!-- Start team members section -->
         <section class="team__section section--padding">
             <div class="container">
-                <div class="section__heading style2 text-center mb-40">
-                    <h2 class="section__heading--maintitle">Над вашей проблемой будут работать</h2>
+                <div class="section__heading border-bottom mb-30">
+                    <h2 class="section__heading--maintitle">Над вашей проблемой <span>будут работать</span></h2>
                 </div>
                 <div class="team__container">
                     <div class="row mb--n30">
@@ -131,8 +131,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="section__header--desc style2 text-center mb-40">
-                    <p class="about__content--desc mb-25">Кроме этого, у нас в штате есть юристы, специализирующиеся в разных областях права. Также сотрудничаем с адвокатами различных специализаций.</p>
+                <div class="section__header--desc style2 text-center">
+                    <p class="about__content--desc">Кроме этого, у нас в штате есть юристы, специализирующиеся в разных областях права. Также сотрудничаем с адвокатами различных специализаций.</p>
                 </div>
             </div>
         </section>
@@ -142,8 +142,8 @@
         <section class="discount__banner--section section--padding pt-0">
             <div class="container">
                 <div class="discount__banner--thumbnail">
-                    <a class="display-block position-relative" href="tel:+375339926176"><img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Остались вопросы? Звоните: +375 33 992-61-76">
-                        <span class="discount__banner--text ">Остались вопросы? <span class="text__secondary">Звоните: </span> <span class="text-nowrap">+375 33 992-61-76</span></span>
+                    <a class="display-block position-relative" href="tel:{{ $MAIN_PHONE }}"><img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Остались вопросы? Звоните: {{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}">
+                        <span class="discount__banner--text ">Остались вопросы? <span class="text__secondary">Звоните: </span> <span class="text-nowrap">{{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}</span></span>
                     </a>
                 </div>
             </div>
@@ -151,11 +151,13 @@
         <!-- End discount banner section -->
 
         <!-- Start team members section -->
-        <section class="team__section section--padding pt-5 pb-0">
+        <section class="mb-25">
             <div class="container">
-                <div class="section__heading style2 text-center mb-40">
-                    <h2 class="section__heading--maintitle">Наши Клиенты и Партнеры</h2>
-                    <p class="about__content--desc mb-25">Мы не можем раскрыть информацию о многих наших клиентах из-за действующих соглашений о неразглашении, поэтому указали только некоторых из тех, с кем сотрудничали:</p>
+                <div class="section__heading border-bottom">
+                    <h2 class="section__heading--maintitle">Наши <span>клиенты и партнеры</span></h2>
+                </div>
+                <div class="mt-2">
+                    <p class="about__content--desc mb-40">Мы не можем раскрыть информацию о многих наших клиентах из-за действующих соглашений о неразглашении, поэтому указали только некоторых из тех, с кем сотрудничали:</p>
                 </div>
             </div>
         </section>

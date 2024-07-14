@@ -1,9 +1,8 @@
 <!-- Start section -->
-<section class="section--padding">
+<section class="mt-5 mb-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text__secondary mb-20"> {{ __('site.bank_details') }}</h2>
                 {!! $bankDetails !!}
             </div>
         </div>

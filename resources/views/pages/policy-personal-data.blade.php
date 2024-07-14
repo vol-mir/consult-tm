@@ -18,17 +18,21 @@
         </section>
         <!-- End breadcrumb section -->
 
+        <section class="mt-5">
+            <div class="container">
+                <div class="section__heading border-bottom">
+                    <h2 class="section__heading--maintitle">Политика в отношении обработки и защиты <span>персональных данных субъектов</span></h2>
+                </div>
+            </div>
+        </section>
+
         <!-- Start policy personal data section -->
-        <div class="policy__personal__data--section section--padding">
+        <div class="policy__personal__data--section mt-5 mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="policy__personal__data--content section_1">
-                            <h2 class="policy__personal__data--content__title">Политика в отношении обработки и защиты персональных данных субъектов</h2>
-                        </div>
-
-                        <div class="policy__personal__data--content section_1">
-                            <h2 class="policy__personal__data--content__subtitle">Общие положения</h2>
+                            <h2 class="policy__personal__data--content__title">Общие положения</h2>
                             <div class="policy__personal__data--content__list">
                                 <ol>
                                     <li>Политика ООО "Консалтинженеринг ТМ" (далее – организация) в отношении обработки персональных данных (далее — Политика) определяет основные цели и правовые основания обработки персональных данных, перечни субъектов и обрабатываемых в организации персональных данных, порядок, условия, способы и принципы обработки персональных данных, права субъектов персональных данных, обязанности организации при обработке персональных данных, а также реализуемые в организации требования к защите персональных данных.</li>

@@ -19,11 +19,13 @@
         <!-- End breadcrumb section -->
 
         <!-- faq page section start -->
-        <section class="faq__section section--padding">
+        <section class="faq__section mt-5">
             <div class="container">
-                <div class="faq__section--inner">
+                <div class="section__heading border-bottom mb-5">
+                    <h2 class="section__heading--maintitle">Часто задаваемые <span>вопросы</span></h2>
+                </div>
+                <div class="faq__section--inner mb-5">
                     <div class="face__step one border-bottom" id="accordionExample">
-                        <h2 class="face__step--title h3 mb-30">Часто задаваемые вопросы</h2>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="accordion__container">
@@ -109,17 +111,24 @@
         <!-- faq page section end -->
 
         <!-- Start discount banner section -->
-        <section class="discount__banner--section section--padding pt-0">
+        <section class="discount__banner--section mt-5 mb-5">
             <div class="container">
                 <div class="discount__banner--thumbnail">
-                    <a class="display-block position-relative" href="tel:+375339926176"><img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Остались вопросы? Звоните: +375 33 992-61-76">
-                        <span class="discount__banner--text ">Есть еще вопросы? <span class="text__secondary">Звоните: </span> <span class="text-nowrap">+375 33 992-61-76</span></span>
+                    <a class="display-block position-relative" href="tel:{{ $MAIN_PHONE }}"><img class="discount__banner--thumbnail__img" src="{{ asset('resources/img/banner/discount-bg.webp') }}" alt="Остались вопросы? Звоните: {{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}">
+                        <span class="discount__banner--text ">Есть еще вопросы? <span class="text__secondary">Звоните: </span> <span class="text-nowrap">{{ str_replace('tel:', '', phone($MAIN_PHONE)->formatRFC3966()) }}</span></span>
                     </a>
                 </div>
             </div>
         </section>
         <!-- End discount banner section -->
 
+        <section class="mb-25">
+            <div class="container">
+                <div class="section__heading border-bottom">
+                    <h2 class="section__heading--maintitle">Наши <span>клиенты и партнеры</span></h2>
+                </div>
+            </div>
+        </section>
         @livewire('brands')
 
         @include('layouts.partials.shipping')
