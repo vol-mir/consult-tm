@@ -2,7 +2,7 @@
 <section class="product__section section--padding  pt-20">
     <div class="container">
         <div class="section__heading border-bottom mb-30">
-            <h2 class="section__heading--maintitle">{{ __('site.populars') }} <span>{{ __('site.services') }}</span></h2>
+            <p class="section__heading--maintitle h2">{{ __('site.populars') }} <span>{{ __('site.services') }}</span></p>
         </div>
         <div class="product__section--inner pb-15 product__swiper--activation swiper">
             <div class="swiper-wrapper">

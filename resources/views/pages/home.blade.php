@@ -8,7 +8,7 @@
                         <div class="swiper-slide ">
                             <div class="hero__slider--items home1-slider1-bg">
                                 <div class="slider__content">
-                                    <p class="slider__maintitle h1"><span class="text__secondary">Юридические</span> <br>услуги <br><span class="slider__maintitle--inner__text">по всей Беларуси</span></p>
+                                    <h1 class="slider__maintitle h1">Юридические услуги по всей Беларуси</h1>
                                     <a class="primary__btn slider__btn" href="tel:{{ $MAIN_PHONE }}">
                                         {{ __('site.to_order') }}
                                         <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@
                         <div class="swiper-slide ">
                             <div class="hero__slider--items home1-slider1-bg">
                                 <div class="slider__content">
-                                    <p class="slider__maintitle h1"><span class="text__secondary">Ликвидация</span> <br>юридической <br> <span class="slider__maintitle--inner__text">организации и ИП</span></p>
+                                    <h1 class="slider__maintitle h1">Ликвидация юридического лица</h1>
                                     <a class="primary__btn slider__btn" href="tel:{{ $MAIN_PHONE }}">
                                         {{ __('site.to_order') }}
                                         <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@
                         <div class="swiper-slide ">
                             <div class="hero__slider--items home1-slider1-bg">
                                 <div class="slider__content">
-                                    <p class="slider__maintitle h1"><span class="text__secondary">Комплексное</span> сопровождение <br> <span class="slider__maintitle--inner__text">и защита интересов бизнеса</span></p>
+                                    <h1 class="slider__maintitle h1">Комплексное сопровождение и защита интересов бизнеса</h1>
                                     <a class="primary__btn slider__btn" href="tel:{{ $MAIN_PHONE }}">
                                         {{ __('site.to_order') }}
                                         <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,15 +72,15 @@
             <div class="container">
                 <div class="main__about--area position__relative">
                     <div class="main__about__content">
-                        <h3 class="main__about__content--title mb-30">О нас</h3>
+                        <h3 class="main__about__content--title mb-30">Консалтинженеринг ТМ</h3>
                         <p class="main__about__content--description mb-15">Юридическая компания Консалтинженеринг ТМ - это надежные адвокаты и юристы высочайшей квалификации с безупречной репутацией, профессионализмом и практическим опытом, готовые к решению абсолютно любых юридических проблем в рамках правового поля. Наши специалисты оказывают правовую, консультационную и судебную помощь физическим и юридическим лицам по всей Беларуси в соответствии с законом.</p>
                         <div class="main__about__content--counter text-center text__secondary">
-                            <h2 class="counter__title">Помогаем клиентам, <br>поможем и вам. Уже более, лет</h2>
+                            <p class="counter__title h2">Помогаем клиентам, <br>поможем и вам. Уже более, лет</p>
                             <span class="counter__number js-counter" data-count="15">0</span>
                         </div>
                     </div>
                     <div class="main__about__info border-radius-5">
-                        <h3 class="main__about__info--title text-white mb-15">Наша миссия</h3>
+                        <p class="main__about__info--title text-white mb-15 h3">Наша миссия</p>
                         <p class="main__about__info--description text-white mb-15">Предоставление высококачественных юридических услуг по доступным ценам за счёт исключения непрофильных расходов</p>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
         <section class="principles--section section--padding pt-0">
             <div class="container">
                 <div class="section__heading border-bottom mb-30">
-                    <h2 class="section__heading--maintitle">Принципы <span>нашей работы</span></h2>
+                    <p class="section__heading--maintitle h2">Принципы <span>нашей работы</span></p>
                 </div>
                 <div class="principles__description border-radius-10">
                     <p>Мы ориентированы на обеспечение высокого уровня профессионализма, эффективности, доверия со стороны наших клиентов. Мы стремимся к тому, чтобы каждый клиент получил качественное правовое обслуживание, которое учитывает их уникальные потребности, цели. Ниже представлены принципы, которые лежат в основе нашей работы:</p>
@@ -133,7 +133,7 @@
         <section class="scheme__of__work__section pt-10 mb-60">
             <div class="container">
                 <div class="section__heading border-bottom mb-30">
-                    <h2 class="section__heading--maintitle">Схема работы <span>с нами</span></h2>
+                    <p class="section__heading--maintitle h2">Схема работы <span>с нами</span></p>
                 </div>
                 <div class="scheme__of__work__section--inner pb-15 scheme__of__work__swiper--activation swiper">
                     <div class="swiper-wrapper">
@@ -227,7 +227,7 @@
         <section class="mb-25">
             <div class="container">
                 <div class="section__heading border-bottom">
-                    <h2 class="section__heading--maintitle">Наши <span>клиенты и партнеры</span></h2>
+                    <p class="section__heading--maintitle h2">Наши <span>клиенты и партнеры</span></p>
                 </div>
             </div>
         </section>
