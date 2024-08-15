@@ -8,7 +8,7 @@
                         <div class="swiper-slide ">
                             <div class="hero__slider--items home1-slider1-bg">
                                 <div class="slider__content">
-                                    <h1 class="slider__maintitle h1">Юридические услуги по всей Беларуси</h1>
+                                    <h2 class="slider__maintitle h1">Юридические услуги по всей Беларуси</h2>
                                     <a class="primary__btn slider__btn" href="tel:{{ $MAIN_PHONE }}">
                                         {{ __('site.to_order') }}
                                         <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@
                         <div class="swiper-slide ">
                             <div class="hero__slider--items home1-slider1-bg">
                                 <div class="slider__content">
-                                    <h1 class="slider__maintitle h1">Ликвидация юридического лица</h1>
+                                    <h2 class="slider__maintitle h1">Ликвидация юридического лица</h2>
                                     <a class="primary__btn slider__btn" href="tel:{{ $MAIN_PHONE }}">
                                         {{ __('site.to_order') }}
                                         <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@
                         <div class="swiper-slide ">
                             <div class="hero__slider--items home1-slider1-bg">
                                 <div class="slider__content">
-                                    <h1 class="slider__maintitle h1">Комплексное сопровождение и защита интересов бизнеса</h1>
+                                    <h2 class="slider__maintitle h1">Комплексное сопровождение и защита интересов бизнеса</h2>
                                     <a class="primary__btn slider__btn" href="tel:{{ $MAIN_PHONE }}">
                                         {{ __('site.to_order') }}
                                         <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="main__about--area position__relative">
                     <div class="main__about__content">
-                        <h3 class="main__about__content--title mb-30">Консалтинженеринг ТМ</h3>
+                        <h1 class="main__about__content--title mb-30">Консалтинженеринг ТМ</h1>
                         <p class="main__about__content--description mb-15">Юридическая компания Консалтинженеринг ТМ - это надежные адвокаты и юристы высочайшей квалификации с безупречной репутацией, профессионализмом и практическим опытом, готовые к решению абсолютно любых юридических проблем в рамках правового поля. Наши специалисты оказывают правовую, консультационную и судебную помощь физическим и юридическим лицам по всей Беларуси в соответствии с законом.</p>
                         <div class="main__about__content--counter text-center text__secondary">
                             <p class="counter__title h2">Помогаем клиентам, <br>поможем и вам. Уже более, лет</p>

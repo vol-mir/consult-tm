@@ -19,6 +19,16 @@
         <!-- Yandex -->
         <meta name="yandex-verification" content="da1b99ca3365cba1" />
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSLJRF6FNQ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-TSLJRF6FNQ');
+        </script>
+
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
         @includeIf('schemas.schema-org')

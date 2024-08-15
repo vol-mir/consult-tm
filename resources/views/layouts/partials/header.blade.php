@@ -32,13 +32,13 @@
         <div class="container">
             <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
                 <div class="offcanvas__header--menu__open ">
-                    <a class="offcanvas__header--menu__open--btn" href="javascript:void(0)" data-offcanvas>
+                    <a class="offcanvas__header--menu__open--btn" href="javascript:void(0)" role="button" data-offcanvas>
                         <svg xmlns="http://www.w3.org/2000/svg" class="ionicon offcanvas__header--menu__open--svg" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
                         <span class="visually-hidden">Offcanvas Menu Open</span>
                     </a>
                 </div>
                 <div class="main__logo">
-                    <h1 class="main__logo--title"><a class="main__logo--link" href="{{ route('home') }}"><img class="main__logo--img" src="{{ asset('resources/img/logo/nav-log.webp') }}" alt="{{ $COMPANY }}"></a></h1>
+                    <h2 class="main__logo--title h1"><a class="main__logo--link" href="{{ route('home') }}"><img class="main__logo--img" src="{{ asset('resources/img/logo/nav-log.webp') }}" alt="{{ $COMPANY }}"></a></h2>
                 </div>
             </div>
         </div>
